@@ -7,12 +7,14 @@
 body {
     background-color: #eee;
 }
-button{
+
+button {
     padding: 10px;
     background-color: green;
     color: white;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         background-color: rgb(9, 100, 9);
     }
 }
@@ -31,30 +33,30 @@ button{
         background-color: #eee;
         padding: 10px;
         border-radius: 10px;
-        
-            overflow: scroll;
+
+        overflow: scroll;
 
         .style-form {
-            margin-bottom: 50px;
-            /* display: none; */
-
             input {
                 padding: 8px;
                 font-size: 15px;
                 margin-bottom: 5px;
             }
-            
+
         }
-        .add-btn{
+
+        .add-btn {
             padding: 8px 15px;
             background-color: green;
-                color: white;
-                cursor: pointer;
-                &:hover{
-                    background-color: rgb(9, 100, 9);
-                }
+            color: white;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(9, 100, 9);
+            }
         }
-        table{
+
+        table {
             width: 100%;
             margin-top: 10px;
             text-align: left;
@@ -65,15 +67,16 @@ button{
 
 @media screen and (max-width: 1000px) {
 
-    .container{
-        .form-container{
-                    width: 95vw;
-                    .style-form{
-                        input{
-                            width: 100%;
-                           
-                        }
-                    }
+    .container {
+        .form-container {
+            width: 95vw;
+
+            .style-form {
+                input {
+                    width: 100%;
+
+                }
+            }
 
         }
     }
